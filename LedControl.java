@@ -13,8 +13,8 @@ public class LedControl
            // create an instance of GpioController
            final GpioController gpio = GpioFactory.getInstance();
        
-           // set the GPIO_01 as an OUTPUT pin and initialize it as a LOW value
-           final GpioPinDigitalOutput pin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_01, PinState.LOW);
+           // set the GPIO_05 as an OUTPUT pin and initialize it as a LOW value
+           final GpioPinDigitalOutput pin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_05, PinState.LOW);
            System.out.println("Starting:");
            while(true) {
                Thread.sleep(1000);
